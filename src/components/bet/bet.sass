@@ -1,0 +1,45 @@
+$btnSize: 50px
+$btnSizeDesktop: 70px
+
+.bet
+  +fxc
+
+  &__btn
+    background-color: $lightYellow
+    border: 2px solid $darkBrown
+    border-radius: 10px
+    color: $darkBrown
+    font-size: 32px
+    font-weight: 900
+    width: $btnSize
+    height: $btnSize
+
+    +rm($iphonePlus)
+      width: $btnSizeDesktop
+      height: $btnSizeDesktop
+    
+    &:disabled
+      background-color: mix($lightYellow, #a3a3a3)
+
+    &:not(:disabled):active
+      background-color: darken($lightYellow, 20%)
+
+  &__info
+    background-color: $darkBrown
+    border-radius: 10px
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin: 0 3px
+    padding: 5px 20px
+
+    +rm($iphonePlus)
+      margin: 0 5px
+      padding: 5px 30px
+
+  &__value
+    color: white
+
+  &__desc
+    color: #c8a964
+    text-transform: uppercase
