@@ -8,10 +8,11 @@ import { SlotScreen } from '../components/slot-screen/SlotScreen';
 import { Loader } from '../components/loader/Loader';
 
 const API_URL = 'https://game-server.kovalevskyi.net/';
+const WIN_DELAY = 2000;
 
-const urlParams = new URLSearchParams(window.location.search);
-const uid = urlParams.get('uid') || 771;
-const winDelay = 2000;
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const uid = queryString ? urlParams.get('uid') : 771;
 
 Modal.setAppElement('#root');
 Modal.defaultStyles.overlay.backgroundColor = null;
@@ -60,7 +61,7 @@ const HOF = () => {
 			setTimeout(() => {
 				setWin(null);
 				// win animation stop here
-			}, winDelay);
+			}, WIN_DELAY);
 		}
 	}, [win]);
 
