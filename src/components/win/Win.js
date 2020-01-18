@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { SomeText } from '../some-text/SomeText';
 
 export const Win = props => {

@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import Div100vh from 'react-div-100vh';
 
 export const Loader = props => {

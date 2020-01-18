@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { Bet } from '../bet/Bet';
 import { Spin } from '../spin/Spin';
 import { Win } from '../win/Win';
