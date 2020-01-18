@@ -1,0 +1,35 @@
+=g($color1, $color2)
+  background-color: $color1
+  background-image: linear-gradient($color1, $color2)
+
+=ellipsis
+  overflow: hidden
+  text-overflow: ellipsis
+
+=fxc
+  display: flex
+  justify-content: center
+  align-items: center
+
+=screen($res-min, $res-max)
+  @media screen and (min-width: if(unitless($res-min), $res-min, $res-min)) and (max-width: if(unitless($res-max), $res-max, $res-max))
+    @content
+
+// more than X
+=rm($width)
+  @media screen and (min-width: $width + 'px')
+    @content
+
+// height, less than X
+=rh($height)
+  @media screen and (max-height: $height + 'px')
+    @content
+
+=font($fz: $fontSize)
+  font-size: $fz * 0.9
+  font-weight: 700
+  line-height: 1.15
+
+  +rm($iphonePlus)
+    font-size: $fz
+    line-height: 1.5
