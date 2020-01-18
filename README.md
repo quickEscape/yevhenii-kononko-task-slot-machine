@@ -1,4 +1,5 @@
 Результат: [https://quickescape.github.io/build/?uid=100](https://quickescape.github.io/?uid=100)
+
 Так же можно не передавать параметр uid, по умолчанию он будет равен 771
 
 Доступное API для задания:
@@ -19,6 +20,8 @@
 * выигрыш 500
 * в ответе баланс будет 600 (200 - 100 + 500)  
   пример: {"uid":100,"balance":60,"last_bet":20,"win":40,"rolls":[[8,3,5],[8,1,6],[7,6,3]]}
+
+`hr`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
