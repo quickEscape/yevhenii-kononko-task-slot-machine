@@ -1,7 +1,7 @@
 Результат: [SPIN to WIN](https://quickescape.github.io/build?uid=100)
-GitHub: [source code](https://github.com/quickEscape/quickescape.github.io)
-
 Так же можно не передавать параметр uid, по умолчанию он будет равен 771
+
+GitHub: [source code](https://github.com/quickEscape/quickescape.github.io)
 
 Доступное API для задания:
 
