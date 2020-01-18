@@ -1,0 +1,33 @@
+$borderColor: #ffffff
+$borderWidth: 4px
+
+.slot
+  &-screen
+    width: 80%
+    height: 50%
+
+    +rh(400)
+      height: 60%
+
+  &-row
+    display: flex
+    justify-content: center
+    height: 33.333333%
+    border-bottom: $borderWidth solid $borderColor
+
+    &:first-child
+      border-top: $borderWidth solid $borderColor
+
+  &-item
+    +fxc
+    border-right: $borderWidth solid $borderColor
+    font-size: 18px
+    font-weight: 700
+    width: 33.333333%
+
+    +rm(639)
+      font-size: 24px
+
+
+    &:first-child
+      border-left: $borderWidth solid $borderColor
