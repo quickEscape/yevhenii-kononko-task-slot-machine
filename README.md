@@ -1,4 +1,4 @@
-Результат: [https://quickescape.github.io/build/?uid=100](https://quickescape.github.io/?uid=100)
+Результат: [https://quickescape.github.io/build?uid=100](https://quickescape.github.io/build?uid=100)
 
 Так же можно не передавать параметр uid, по умолчанию он будет равен 771
 
