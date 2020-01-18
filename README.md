@@ -1,4 +1,5 @@
-Результат: [https://quickescape.github.io/build?uid=100](https://quickescape.github.io/build?uid=100)
+Результат: [SPIN to WIN](https://quickescape.github.io/build?uid=100)
+GitHub: [source code](https://github.com/quickEscape/quickescape.github.io)
 
 Так же можно не передавать параметр uid, по умолчанию он будет равен 771
 
