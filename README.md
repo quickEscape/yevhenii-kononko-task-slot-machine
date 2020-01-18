@@ -8,7 +8,7 @@
 
 - если пользователя с uid не существует, то он будет создан и ему на баланс будет начислено 1000 монет
 - если же пользователь найдет - то вернется его баланс, список доступных ставок, последняя ставка, данные для отображения на барабане  
-  пример: {"uid":100,"balance":970,"last_bet":10,"bets":[10,20,50,100],"rolls":[[8,3,9],[9,9,4],[5,6,3]]}
+  пример: `{"uid":100,"balance":970,"last_bet":10,"bets":[10,20,50,100],"rolls":[[8,3,9],[9,9,4],[5,6,3]]}`
 
 2.  [https://game-server.kovalevskyi.net/spin?uid=2&bet=20](https://game-server.kovalevskyi.net/spin?uid=2&bet=20)
 
@@ -19,9 +19,9 @@
 * ставка 100
 * выигрыш 500
 * в ответе баланс будет 600 (200 - 100 + 500)  
-  пример: {"uid":100,"balance":60,"last_bet":20,"win":40,"rolls":[[8,3,5],[8,1,6],[7,6,3]]}
+  пример: `{"uid":100,"balance":60,"last_bet":20,"win":40,"rolls":[[8,3,5],[8,1,6],[7,6,3]]}`
 
-`hr`
+***
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
