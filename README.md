@@ -1,4 +1,4 @@
-Результат: [SPIN to WIN](https://quickescape.github.io/build?uid=100)
+Результат: [SPIN to WIN](https://quickescape.github.io/yevhenii-kononko-task-slot-machine/build?uid=312)
 Так же можно не передавать параметр uid, по умолчанию он будет равен 771
 
 GitHub: [source code](https://github.com/quickEscape/quickescape.github.io)
